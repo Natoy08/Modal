@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // modal.querySelector('#yesButton').textContent = 'OK';
         setTimeout(() => {
             modal.style.display = 'none';
-            noButton.style.display = 'none';
+            // noButton.style.display = 'none';
             cancelButton.textContent = 'Cancelled';
         }, 2000);
     });
