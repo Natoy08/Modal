@@ -14,8 +14,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     yesButton.addEventListener('click', () => {
         modal.querySelector('p').textContent = 'Subscription successfully cancelled!';
-        // modal.querySelector('#yesButton').textContent = 'OK';
-        // noButton.style.display = 'none';
+        modal.querySelector('#yesButton').textContent = 'OK';
+        noButton.style.display = 'none';
         setTimeout(() => {
             modal.style.display = 'none';
             cancelButton.textContent = 'Cancelled';
